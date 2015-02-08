@@ -1,0 +1,6 @@
+<%
+ var SessionCookieGen =org.wso2.carbon.session.cookie.SessionCookieGen;
+ var SessionCookieGen = new SessionCookieGen();
+ var sessionCookie = SessionCookieGen.login('admin', 'admin');
+ print(sessionCookie);
+ %> 
